@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Renk Kodu Üret</title>
+	<style>
+		body{
+	box-sizing:border-box;
+	color:black;
+	font-weight:700;
+	font-family:sans-serif;
+	font-size:1.5rem;
+	padding:0;
+	margin:0;}
+#kutu{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+	width:100%;
+}
+#button{
+	background-color:white;
+	cursor:pointer;
+	border-radius:7px;
+	user-select: none;
+	border:5px solid black;
+}
+#button:hover{
+	background-color:yellow;
+	
+}
+#kutu input[type="button"]{
+	background: white;
+	margin-top: 10px;
+
+}
+#cikis,
+#button{
+	padding:2rem;
+}
+	
+
+	</style>
+<script src="renkuret.js">
+</script>
+</head>
+<body>
+    <div id="kutu">
+	<div id="button" onclick="uret();">
+	Random Renk Üret
+	</div>
+	<div id="cikis"></div>
+	<input type="button" name="" value="div olustura git" onClick="window.location.href='divolustur.html'"/>
+	<input type="button" name="" value="Çıkış Yap" onClick="window.location.href='giris.html'"/>
+	</div>
+</body>
+</html>

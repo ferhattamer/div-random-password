@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lan="tr">
+<head>
+<meta charset="utf-8">
+<title> DİV OLUŞTURMA </title>
+<script src="divolustur.js">
+</script>
+</head>
+<body>
+<form action="" style="background:yellow; width:500px;" >
+<table>
+<tr>
+<td width="200" height="30">Genişlik</td>
+<td width="300"><input name="" type="text" id="genislik" placeholder="0"/></td>
+</tr>
+<tr>
+<td width="200" height="30">Yükseklik</td>
+<td width="300"><input name="" type="text" id="yukseklik" placeholder="0"/></td>
+</tr>
+<tr>
+<td width="200" height="30">Kenar kalınlığı</td>
+<td width="300" ><select name="" id="kenarkalinlik">
+<option>Bir çizgi kalınlığı seçiniz.</option>
+<option value="2px">2px</option>
+<option value="3px">3px</option>
+<option value="4px">4px</option>
+<option value="5px">5px</option>
+<option value="10px">10px</option>
+<option value="15px">15px</option>
+<option value="20px">20px</option>
+<option value="30px">30px</option>
+<option value="50px">50px</option>
+<select></td>
+</tr>
+<tr>
+<td width="200" height="30">Kenar tipi</td>
+<td width="300"><select name="" id="kenartipi">
+<option>Bir kenarlık tipi seçiniz.</option>
+<option value="solid">solid</option>
+<option value="dashed">dashed</option>
+<option value="dotted">dotted</option>
+<option value="double">double</option>
+</select></td>
+</tr>
+<tr>
+<td width="200" height="30">Kenar rengi</td>
+<td width="300"><select name="" id="kenarrengi">
+<option>Bir kenarlık rengi seçiniz.</option>
+<option value="black">siyah</option>
+<option value="white">beyaz</option>
+<option value="red">kırmızı</option>
+<option value="blue">mavi</option>
+<option value="darkblue">lacivert</option>
+<option value="turquoise">turkuaz</option>
+<option value="green">yeşil</option>
+<option value="orange">turuncu</option>
+<option value="brown" >kahverengi</option>
+<option value="yellow">sarı</option>
+<option value="purple">mor</option>
+<option value="pink">pembe</option>
+</select></td>
+</tr>
+<tr>
+<td width="200" height="30">Arka plan rengi</td>
+<td width="300"><select name="" id="arkarenk">
+<option>Bir arkaplan rengi seçiniz.</option>
+<option value="black">siyah</option>
+<option value="white">beyaz</option>
+<option value="red">kırmızı</option>
+<option value="blue">mavi</option>
+<option value="darkblue">lacivert</option>
+<option value="turquoise">turkuaz</option>
+<option value="green">yeşil</option>
+<option value="orange">turuncu</option>
+<option value="brown" >kahverengi</option>
+<option value="yellow">sarı</option>
+<option value="purple">mor</option>
+<option value="pink">pembe</option>
+</select>
+</select></td>
+</tr>
+<tr>
+<td width="200" height="30">Ovallik</td>
+<td width="300"><select name="" id="ovallik">
+<option>Ovallik miktarı seçiniz.</option>
+<option value="3px">3px</option>
+<option value="5px">5px</option>
+<option value="10px">10px</option>
+<option value="15px">15px</option>
+<option value="50px">50px</option>
+<option value="100px">100px</option>
+<option value="180px">180px</option>
+<option value="360px">360px</option>
+</select></td>
+</tr>
+<tr>
+<td witd ="200" height="30">Seçim yap</td>
+<td width="300">
+<input name="" type="button" value="sıfırla"  onclick="window.location.href ='divolustur.html';">
+<input name="" type="button" value="oluştur"  onclick="kutuyarat()">
+<input name="" type="button" value="random renk üret" style="background-image:linear-gradient(120deg,green,blue,black); color:white";  onclick="window.location.href ='renkuret.html'; "/></td>
+</tr>
+</table>
+</form>
+<br/><br/><br/>
+<div id="kutu"></div>
+	</body>
+	</html>
